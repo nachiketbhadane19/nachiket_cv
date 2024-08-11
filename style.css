@@ -1,0 +1,144 @@
+/* Basic Reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #b4b4b4; /* Light background color for the body */
+}
+
+/* Header Styling */
+header {
+    background-color: #333; /* Dark background color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a shadow effect */
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em; /* Larger font size for the name */
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #444; /* Slightly lighter background for the nav bar */
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners for the links */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+/* Main Content Styling */
+main {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: white; /* White background for the main content */
+    box-shadow: 0 4px 8px rgb(0, 0, 0); /* Subtle shadow for a card-like effect */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h2 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    color: #333; /* Dark text color */
+}
+
+main img {
+    margin-bottom: 20px;
+    border: 5px solid #333; /* Border around the image */
+}
+
+/* Paragraph Styling */
+main p {
+    font-size: 1.2em; /* Slightly larger text */
+    color: #555; /* Dark gray text color */
+    line-height: 1.8;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Dark background for the footer */
+    color: white;
+    border-radius: 5px; /* Rounded corners for the footer */
+    font-size: 0.9em;
+}
+
+/* Additional Styling for Responsiveness */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+    
+    main {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    main h2 {
+        font-size: 1.5em;
+    }
+}
+/* Contact List Styling */
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.contact-list li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.contact-list li strong {
+    color: #333;
+}
+
+.contact-list a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
